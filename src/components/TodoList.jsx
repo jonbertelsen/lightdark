@@ -7,9 +7,7 @@ const StyledTodo = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  h3 {
-    color: red;
-  }
+
   li {
     border: 1px solid silver;
     padding: 10px;
@@ -26,7 +24,7 @@ const StyledTodo = styled.ul`
 function TodoList() {
   return (
     <>
-      <h3>TodoList</h3>
+      <h2>TodoList</h2>
       <StyledTodo>
         <li>
           <h3>Todo 1</h3>

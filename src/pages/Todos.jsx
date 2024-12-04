@@ -6,7 +6,9 @@ function Todos() {
       <h1>Todos</h1>
 
       <p>This is the todos that we have. Click to see.</p>
-      <NavLink to='todolist'>Todo List</NavLink>
+      <p>
+        <NavLink to='todolist'>Todo List</NavLink>
+      </p>
       <Outlet />
     </>
   )

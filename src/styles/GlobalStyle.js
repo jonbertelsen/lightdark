@@ -8,6 +8,28 @@ html * {
     box-sizing: border-box;
   }
 
+  #root {
+  width: 100%; /* Inherit the width of the body */
+  height: 100%; /* Fill the entire body */
+  display: contents; /* Allows its children to behave as if #root isn't there */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
  body {
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
@@ -24,6 +46,7 @@ html * {
     color: ${({ theme }) => theme.text};
     padding: 2rem 1rem;
     width: 100%;
+    max-width: 968px;
     min-height: 80vh;
   }
 
@@ -35,6 +58,8 @@ html * {
     justify-content: space-between;
     border-bottom: 1px solid ${({ theme }) => theme.toggleBorder};
     width: 100%;
+    max-width: 968px;    
+
   }
 
   footer {
@@ -46,6 +71,8 @@ html * {
     flex-direction: column;
     border-top: 1px solid ${({ theme }) => theme.toggleBorder};
     width: 100%;
+    max-width: 968px;  
+
   }
 
 `

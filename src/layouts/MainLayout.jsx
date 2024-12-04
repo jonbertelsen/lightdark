@@ -13,7 +13,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  min-width: 968px;
+  max-width: 968px; /* Maximum width */
+  width: 100%; /* Allows it to shrink below 968px if needed */
 `
 
 function MainLayout() {
