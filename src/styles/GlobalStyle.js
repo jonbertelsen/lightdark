@@ -47,6 +47,7 @@ html * {
     border-top: 1px solid ${({ theme }) => theme.toggleBorder};
     width: 100%;
   }
+
 `
 export default GlobalStyle
 

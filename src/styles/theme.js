@@ -6,6 +6,7 @@ export const lightTheme = {
     background: '#363537',
     header: '#FFFFFF',
     footer: '#FFFFFF',
+    hover: 'red',
 };
 
 export const darkTheme = {
@@ -15,4 +16,5 @@ export const darkTheme = {
     background: '#999',
     header: '#000000',
     footer: '#000000',
+    hover: 'red',
 };
